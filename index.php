@@ -1,9 +1,10 @@
 <?php
 // Database connection
-$host = "host";
-$dbname = "db_name";
-$user = "db_username";
-$pass = "";
+$host = "sql304.infinityfree.com";
+$port = "3306";
+$dbname = "if0_37536001_bloyid";
+$user = "if0_37536001";
+$pass = "298612Jasonn";
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 
